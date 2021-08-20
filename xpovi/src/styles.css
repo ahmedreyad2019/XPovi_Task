@@ -1,0 +1,105 @@
+.myButton {
+  background: linear-gradient(91.4deg, #2fb8ff 0%, #9eecd9 100%);
+  padding: 10px;
+  width: 100%;
+  max-width: fit-content;
+  font-size: larger;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  font-family: Segoe UI, sans-serif;
+}
+.myButton:hover {
+  background: linear-gradient(91.4deg, #2fb8ff 50%, #9eecd9 100%);
+}
+.choiceCircle_disabled {
+  height: 16px;
+  width: 16px;
+  background-color: white;
+  border-width: 1.5px;
+  border-color: rgb(31, 23, 66);
+  border-radius: 50%;
+  display: inline-block;
+  border-style: solid;
+
+  margin-right: 7px;
+}
+.choiceCircle {
+  height: 16px;
+  width: 16px;
+  background-color: white;
+  border-width: 1.5px;
+  border-color: rgb(31, 23, 66);
+  border-radius: 50%;
+  display: inline-block;
+  border-style: solid;
+
+  margin-right: 7px;
+}
+.choiceCircle:hover {
+  background: rgb(77, 60, 153);
+}
+.choiceCircle_selected {
+  height: 6px;
+  width: 6px;
+  background-color: white;
+  border-width: 6.5px;
+  border-color: rgb(31, 23, 66);
+  border-radius: 50%;
+  display: inline-block;
+  border-style: solid;
+
+  margin-right: 7px;
+}
+.choice {
+  display: flex;
+  justify-content: baseline;
+  flex-direction: row;
+  flex: 1;
+  margin-top: 5px;
+  align-items: center;
+}
+.questionContainer {
+  overflow: hidden;
+  transition: 0.4s max-height;
+  display: flex;
+  padding: 0.5vh;
+  padding-left: 25px;
+  padding-right: 25px;
+
+  margin: 25px;
+  border: 1px solid #bbb;
+  border-radius: 10px;
+  justify-content: baseline;
+  flex-direction: column;
+  flex: 1;
+  align-items: baseline;
+}
+.answersContainer {
+  display: flex;
+  justify-content: baseline;
+  flex-direction: column;
+  flex: 1;
+  align-items: baseline;
+}
+.text {
+  color: #555;
+}
+.text_selected {
+  color: black;
+}
+.collapse {
+  overflow: hidden;
+  transition: 0.4s max-height;
+}
+.container{
+  flex:1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50;
+  margin:50;
+  flex-direction: row;
+}
